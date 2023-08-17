@@ -18,7 +18,14 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     background-image: linear-gradient(45deg, #ff9d00, #ff4e00); 
   }
-  
+  .btn-whatsapp {
+    border-radius: 50%; /* Define o raio da borda para criar a forma redonda */
+    width: 100px; /* Ajuste a largura conforme necessário */
+    height: 100px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 .nav-item {
  
@@ -173,10 +180,12 @@
   background-color: #007bff;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-
+.col-md-8 .card-body {
+  color: #fff;
+}
 .col-md-4 .card-body:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  background-color: #ff7f50;
+  background-color: #ffbf00;
 }
 
 .col-md-4 .card-body h3 {
@@ -191,8 +200,8 @@
 
 /* Estilos para a classe card-title */
 .card-title {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: normal; 
   margin-bottom: 10px;
 }
 
@@ -231,8 +240,9 @@
 /* Estilos para o título dos cards na coluna */
 #coluna .card-title {
   color: #ffffff;
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 24px;
+  font-weight: normal; 
+  margin-bottom: 10px;
 }
 
 /* Posicionamento */
@@ -246,6 +256,9 @@
 #coluna .col-md-4 {
   left: 750px;
 }
+#coluna 
+
+
 
 /* Limpar floats */
 .row::after {
@@ -268,7 +281,7 @@
 
 
       #coluna  .col-md-4{
-        width: 110%; /* Usar a largura total da tela */
+        width: 108%; /* Usar a largura total da tela */
         position: relative;
         left: -13px;
        top: 20px;
